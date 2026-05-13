@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+tensorflow
+numpy
+pillow
+python-jose
+resend
+sqlalchemy
+passlib[bcrypt]
+python-multipart
+requests
+joblib
