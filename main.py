@@ -16,9 +16,11 @@ from passlib.context import CryptContext
 
 
 
-resend.api_key = "re_B29xB4Pa_8eKzrDBibBCXpkKS7ZLx7cXd"
+import os
 
-SECRET_KEY = "supersecretkey"
+resend.api_key = os.getenv("RESEND_API_KEY")
+
+SECRET_KEY = os.getenv("SECRET_KEY")
 
 ALGORITHM = "HS256"
 

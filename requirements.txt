@@ -1,7 +1,6 @@
 fastapi
 uvicorn
-keras
-h5py
+tensorflow
 numpy
 pillow
 python-jose
@@ -10,4 +9,5 @@ sqlalchemy
 passlib[bcrypt]
 python-multipart
 requests
+joblib
 fastapi-mail
