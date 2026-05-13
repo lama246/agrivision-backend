@@ -10,4 +10,4 @@ sqlalchemy
 passlib[bcrypt]
 python-multipart
 requests
-joblib
+fastapi-mail
