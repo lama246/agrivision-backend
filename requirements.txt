@@ -1,6 +1,7 @@
 fastapi
 uvicorn
-tensorflow
+keras
+h5py
 numpy
 pillow
 python-jose
